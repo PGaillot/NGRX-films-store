@@ -1,0 +1,4 @@
+<div class="collection-item" *ngFor="let film of films">
+    <p>{{film.title}}</p>
+    <button (click)="remove.emit(film.id)">Remove from my collection</button>
+</div>

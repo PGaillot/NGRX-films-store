@@ -15,9 +15,5 @@ export class AppComponent implements OnInit{
   ngOnInit(): void {
       this.filmsService.getFilms().subscribe(res => console.log(res)
       )
-
-
   }
-
-
 }

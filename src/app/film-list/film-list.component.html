@@ -1,0 +1,4 @@
+<div class="film-item" *ngFor="let film of films">
+    <p>{{ film.title }}</p>
+    <button (click)="add.emit(film.id)">add film to my collection.</button>
+</div>
