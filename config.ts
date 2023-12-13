@@ -1,4 +1,3 @@
 export const config = {
-    API_KEY:'Your TMDB api key here !',
-    
+    API_KEY:'Your TMDB api key here !',  
 }
