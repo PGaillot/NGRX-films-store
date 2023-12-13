@@ -1,0 +1,6 @@
+<h2>Film list</h2>
+<app-film-list [films]="(films$ | async)!" (add)="onAdd($event)"></app-film-list>
+
+
+<h2>My Collection</h2>
+<app-collection [films]="(filmsCollections$ | async)!" (remove)="onRemove($event)"></app-collection>
